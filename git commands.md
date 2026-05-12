@@ -11,3 +11,7 @@
 4) Git flow
    ![alt text](<Git Flow.png>)
 
+5) Taking the file to the staging area after doing the changes:
+   git add <file name> 
+    or
+   git add .   (# To select all the changed file in one go)
