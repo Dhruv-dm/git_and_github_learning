@@ -15,3 +15,6 @@
    git add <file name> 
     or
    git add .   (# To select all the changed file in one go)
+
+6) To commit the file
+   git commit -m "type the message"
