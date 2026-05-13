@@ -37,3 +37,7 @@
 10) To Set VS Code as Git Default Editor
     git config --global core.editor "code --wait"
     The --wait flag is important because it tells Git to wait until you close the file before continuing the Git operation (like commit message editing).
+
+11) .gitignore file:
+    Place the files are the required not to track by git.
+    eg- I put the ignore_file in the .gitignore file, so it will not be tracked by git
