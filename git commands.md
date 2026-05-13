@@ -47,6 +47,6 @@
 
 13) git branch : will provide the current branch name
 14) git branch <new_branch_name> : will create a new branch
-15) git switch <branch_name> : switch to other branch
-16) git switch -c <new_branch_name> will create a new branch and automtically switch to this new branch.
-17) 
+15) git switch <branch_name> : will switch to other branch
+16) git switch -c <new_branch_name> : will create a new branch and automtically switch to this new branch.
+17) git checkout <other_branch_name> : will switch to the other branch
