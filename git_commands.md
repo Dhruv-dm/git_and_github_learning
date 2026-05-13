@@ -55,3 +55,21 @@
     make the feaute_branch updated
     switch to master branch: git checkout master
     merging the changes: git merge <feature_branch>
+
+19) git merge --abort : will abort the merging of the braches.
+
+20) git stash: 
+    it is a Git feature used to temporarily save your uncommitted changes without committing them.
+    It is useful when:
+         You are working on something
+         Suddenly need to switch branches or pull latest code
+         But your current work is incomplete and you don’t want to commit it yet
+    Flow: So after doing the git stash 
+         Do other work, switch branches, pull code, fix bugs, etc. 
+
+    Bring your changes back
+                  | Command           | What it does                                  |
+         | ----------------- | --------------------------------------------- |
+         | `git stash apply` | Restores stash but keeps copy in stash list   |
+         | `git stash pop`   | Restores stash and deletes it from stash list |
+     
