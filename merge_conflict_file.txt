@@ -1,3 +1,7 @@
 This is the document prepared to understand the merge conflict between two branches.
 
 master_branch change 1
+
+Now I am making the changes in the feature_branch
+feature_branch change 1 
+feature_branch change 2
