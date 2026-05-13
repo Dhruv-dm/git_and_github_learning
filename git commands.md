@@ -50,3 +50,8 @@
 15) git switch <branch_name> : will switch to other branch
 16) git switch -c <new_branch_name> : will create a new branch and automtically switch to this new branch.
 17) git checkout <other_branch_name> : will switch to the other branch
+
+18) merging the changes from feature_branch to master/any other branch:
+    make the feaute_branch updated
+    switch to master branch: git checkout master
+    merging the changes: git merge <feature_branch>
