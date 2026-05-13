@@ -7,3 +7,6 @@ Now I come here to make add changes here.
 
 master_branch change 2 
 master_branch change 3
+Now I am making the changes in the feature_branch
+feature_branch change 1 
+feature_branch change 2
