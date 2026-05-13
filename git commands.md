@@ -41,3 +41,12 @@
 11) .gitignore file:
     Place the files are the required not to track by git.
     eg- I put the ignore_file in the .gitignore file, so it will not be tracked by git
+
+12) .gitkeep file:
+    Usually git does not keep the track of an empty folder, this file can be placed under that empty folder, so that git could keep a track. 
+
+13) git branch : will provide the current branch name
+14) git branch <new_branch_name> : will create a new branch
+15) git switch <branch_name> : switch to other branch
+16) git switch -c <new_branch_name> will create a new branch and automtically switch to this new branch.
+17) 
