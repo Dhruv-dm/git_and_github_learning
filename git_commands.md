@@ -73,3 +73,17 @@
          | `git stash apply` | Restores stash but keeps copy in stash list   |
          | `git stash pop`   | Restores stash and deletes it from stash list |
      
+21) git rebase master(branch you want to rebase) : 
+      It re-writes the history of commit messgaes/flow. 
+      It helps to re-allign the base.
+
+      suppsose you created a feature_branch from the master. You continue to do the changes in the feature
+      branch, but someone made some changes in the master branch itself. So, in that case, you would want to
+      have those as well. Here, realligning the base would help.
+
+22) git reflog : 
+      This will show you the history of the commits.
+
+23) git reset --hard <commit-id/commit-hash> :
+      This will reset and take up to the point of commit for which commit-id is shared.
+      After doing this, the already further commits happended after the shared <commit-id> will not exit. 
