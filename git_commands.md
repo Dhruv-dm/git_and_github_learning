@@ -9,7 +9,8 @@
    Write -> add -> commit
 
 4) Git flow
-   ![alt text](<Git Flow.png>)
+   ![alt text](<Git Flow.png>) 
+   refer the git_flow.png image
 
 5) Taking the file to the staging area after doing the changes:
    git add <file name> 
@@ -87,3 +88,6 @@
 23) git reset --hard <commit-id/commit-hash> :
       This will reset and take up to the point of commit for which commit-id is shared.
       After doing this, the already further commits happended after the shared <commit-id> will not exit. 
+
+24) git push origin main : 
+    use to push the repo changes to Github Repo
